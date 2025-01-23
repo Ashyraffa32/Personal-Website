@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+.banner {
+    border: 0;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.title {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+
+.id {
+    text-align: center;
+    color: yellow;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.about {
+    text-align: center;
+    color: yellow;
+    margin-top: 20px;
+    font-size: 1em;
+}

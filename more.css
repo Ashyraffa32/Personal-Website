@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+}
+
+.title {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info1 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info2 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.more-info {
+    display: none;
+}
+
+.indo-desc:hover .more-info {
+    display: inline-block;
+}
+
+.flag:hover {
+    display: none;
+    content: url(old.indonesia.png);
+    display: inline-block;
+}
+
+.info3 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.more {
+    display: none;
+}
+
+.spensa:hover .more {
+    display: inline-block
+}
+
+.info4 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info5 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info6 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info7 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.info8 {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.more-game {
+    display: none;
+}
+
+.roblox:hover .more-game {
+    display: inline-block
+}
+
+.game {
+    text-align: center;
+    color: lawngreen;
+    margin-top: 20px;
+}
+
+.meaning {
+    display: none;
+}
+
+.secret:hover .meaning {
+    display: inline-block
+}
