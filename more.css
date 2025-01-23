@@ -104,3 +104,17 @@ body {
 .secret:hover .meaning {
     display: inline-block
 }
+
+.more-text {
+    display: none;
+}
+
+.yellowgold:hover .more-text {
+    display: inline-block
+}
+
+.yellow {
+    text-align: center;
+    color: yellow;
+    margin-top: 20px;
+}
