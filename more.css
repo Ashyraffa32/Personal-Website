@@ -13,6 +13,10 @@ body {
     margin-top: 20px;
 }
 
+.ro {
+    display: flex;
+}
+
 .info1 {
     text-align: center;
     color: lawngreen;
@@ -45,19 +49,6 @@ body {
     margin-top: 20px;
 }
 
-.more {
-    display: none;
-}
-
-.spensa:hover .more {
-    display: inline-block
-}
-
-.info4 {
-    text-align: center;
-    color: lawngreen;
-    margin-top: 20px;
-}
 
 .info5 {
     text-align: center;

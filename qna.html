@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questions.....</title>
+        <link rel="stylesheet" type="text/css" href="ema.css">
+    </head>
+    <body>
+        <header>
+            <div class="title">
+                <div>
+            <h1>Questions:</h1>
+                </div>
+            </div>
+        </header>
+        <br>
+        <br>
+        <div class="qna1">
+            <button class="answer">Kenapa lu kalo ngomong suka cepat-cepat gitu?</button>
+            <div class="jawab">
+                <p>Ya.... karena udah terbiasa sih sejak kecil, maaflah🙏</p>
+                <p>Gw usahain ngomong sedikit lebih lambat.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="contact">
+            <p>Jika ingin bertanya kepada saya bisa menghubungi email saya <a href="mailto:raffa3527@outlook.com">disini.</a></p>
+            <p>Atau siapa yg punya no WA saya, bisa juga lewat situ kok.</p>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <a href="index.html"><button>HOME</button></a>
+        </div>
+        <script>
+            document.querySelectorAll('.answer').forEach(button => {
+            button.addEventListener('click', () => {
+            const jawab = button.nextElementSibling;
+            jawab.style.display = jawab.style.display === 'block' ? 'none' : 'block';
+            });
+         });
+        </script>
+    </body>
+</html>
