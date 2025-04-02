@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+header {
+    background-color: black;
+    padding: 20px 0;
+    padding-top: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 20px 0;
+    padding-top: 20px;
+}
+
+nav a {
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 19px;
+}
+
+ a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding: 20px 0;
+    background-color: #4a4a4a;
+    color: #ddd;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #4a4a4a;
+    border-radius: 8px;
+}
+
+#videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#video h2 {
+    text-align: center;
+}
+
+
+#introduction {
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+#about h3 {
+    font-size: 25px;
+}
+
+#introduction h1 {
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.product {
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: white;
+    text-align: left;
+    margin: 0 10px;
+    padding: 0 10px;
+    flex: 1;
+}
+
+.product img {
+    max-width: 800px;
+    max-width: 480px;
+    height: auto;
+    width: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+.text i {
+    font-size: 18px;
+}
+
+#media {
+    text-align: center;
+}
+
+
+button {
+    background-color: #2e2e2e;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+
+button:hover {
+    background-color: #4a4a4a;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #000000;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        text-align: center;
+        font-size: 30px;
+        font-size: bold;
+    }
+
+    nav {
+        gap: 7px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+}
