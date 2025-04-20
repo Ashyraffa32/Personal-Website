@@ -67,7 +67,7 @@ nav a:hover, footer a:hover, #contact a:hover, .answers a:hover {
     font-size: 1.3rem;
 }
 
-#kelas, #todo, #drawing {
+#kelas, #todo, #drawing, #os {
     max-width: 800px;
     max-height: 480px;
     height: auto;
@@ -76,7 +76,7 @@ nav a:hover, footer a:hover, #contact a:hover, .answers a:hover {
     border: rgba(255, 255, 255, 0.1)
 }
 
-#firstproject, #secondproject, #thirdproject {
+#firstproject, #secondproject, #thirdproject, #fourthproject {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
