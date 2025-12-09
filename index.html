@@ -13,77 +13,75 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
+
+        #buttons {
+            display: flex;
+            justify-content: left;
+            gap: 12px;
+        }
+
+        @media (max-width: 768px) {
+            #buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 <body class="bg-gray-900 text-white">
-<div id="top-warning-banner" class="fixed top-0 left-0 right-0 z-100 p-4 text-center bg-yellow-500 text-yellow-900 shadow-lg">
-    <div class="container mx-auto flex items-center justify-center">
-        <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-        
-        <p class="font-semibold text-sm md:text-base">
-            ⚠️ CRITICAL ALERT: In Sumatra, we are currently experiencing severe floods, making it difficult for me to update due to the signal being cut off. Therefore, I ask you to donate as much as you can at the following link <a href="https://www.berbuatbaik.id/donasi/222/donasi-siaga-bencana-wujudkan-kepedulian-dengan-uluran-tangan-untuk-korban-bencana" target="_blank" class="text-gray-700 underline hover:text-white text-underline">HERE.</a>
-        </p>
-    </div>
-</div>
-<br>
-<br>
-<br>
-<br>
 
     <nav class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50 p-4">
         <div class="container mx-auto flex justify-between items-center">
             <a href="#" class="text-2xl font-bold text-red-400">Ashyraffa</a>
             <div class="hidden md:flex space-x-6">
                 <a href="about.html" class="hover:text-red-400 transition duration-300">About</a>
-                <a href="#projects" class="hover:text-red-400 transition duration-300">Projects</a>
+                <a href="projects.html" class="hover:text-red-400 transition duration-300">Projects</a>
             </div>
         </div>
     </nav>
 
     <header class="container mx-auto min-h-screen flex flex-col md:flex-row items-center justify-center px-6 py-12">
-        <div class="md:w-1/2 text-center md:text-left">
+        <div class=" text-center md:text-left">
             <h1 class="text-5xl md:text-7xl font-bold leading-tight">
-                Hi, I'm <span class="text-red-400">Ashyraffa</span>
+                <span class="text-red-400">Welcome 👋</span>
             </h1>
-            <p class="text-2xl mt-4 text-gray-300">That IT student (really or nah??) in school. I'm a front-end web dev. (sometimes)</p>
-            <p class="mt-6 text-gray-400 max-w-lg">
-                I make websites and apps, i make apps based on real problems happening in everyday's life.
+            <p class="text-2xl mt-4 text-gray-300">I'm <span class="font-bold text-2xl">Ashyraffa.</span> - A software developer, a web developer, sysadmin, and most importantly,
+                 a weird human just being exist. Sometimes i wish i could meet Titipo in Choo-Choo Town :)        
             </p>
+            <div id="buttons">
             <a href="about.html" class="mt-8 inline-block bg-red-500 hover:bg-red-600 text-gray-900 font-bold py-3 px-8 rounded-full transition duration-300">
                 About Me
             </a>
-        </div>
-        <div class="md:w-1/2 mt-10 md:mt-0">
-            
+            <a href="#whatido" class="mt-8 inline-block bg-red-500 hover:bg-red-600 text-gray-900 font-bold py-3 px-8 rounded-full transition duration-300">
+                What I Do?
+            </a>
+            <a href="projects.html" class="mt-8 inline-block bg-red-500 hover:bg-red-600 text-gray-900 font-bold py-3 px-8 rounded-full transition duration-300">
+                My Projects
+            </a>
+            </div>
         </div>
     </header>
 
-    <section id="projects" class="py-20 bg-gray-800">
+    <section id="whatido" class="py-20 bg-gray-800">
         <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12">My <span class="text-red-400">Projects</span></h2>
+            <h2 class="text-4xl font-bold text-center mb-12">What I Do?</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                    <img src="photo/img2.png" alt="FractionCalc" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">FractionCalc</h3>
-                        <p class="text-gray-400 mb-4">A simple fraction calculator to help students in fractions. Available on Windows, Linux, and Android.</p>
-                        <a href="https://ashyraffa32.github.io/FractionCalcSite" class="text-red-400 hover:underline">See FractionCalc &rarr;</a>
+                        <p class="text-white-400 mb-4 text-xl">I develop cross-platform software. Usually i use HTML/CSS/JS and wrap them in Electron (you can hate me for this) <br><br>
+                        And for web, i just use vanilla HTML (i'm lazy as hell), sometimes frameworks like Bootstrap or Tailwind. You can take a look at my code in my <a href="https://github.com/Ashyraffa32" class="text-red-400 hover:underline">GitHub.</a></p>
                     </div>
                 </div>
                 <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                    <img src="photo/img6.png" alt="TikiToko Downloader" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">TikiToko Downloader</h3>
-                        <p class="text-gray-400 mb-4">A free, open-source TikTok Downloader i made, without an ad, but right now its very basic.</p>
-                        <a href="https://ashyraffa32.github.io/TikiToko-Downloader/" class="text-red-400 hover:underline">See TikiToko Downloader &rarr;</a>
+                        <p class="text-white-400 mb-4 text-xl">I have the most unnecessary, yet lots of knowledge about PCs, and Microsoft Windows. <br><br>
+                            I absolutely loves sharing it with my friends or my IT teacher sometimes.
+                        </p>
                     </div>
                 </div>
                 <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
-                    <img src="photo/img3.png" alt="CoinTrack" class="w-full h-48 object-cover">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">CoinTrack</h3>
-                        <p class="text-gray-400 mb-4">A simple financial managing app, for treasurers, the idea was came from my best friend, even tho the idea was came from her, but i developed the app. (Still in Beta Project)</p>
-                        <a href="https://github.com/Ashyraffa32/Coin-Track" class="text-red-400 hover:underline">See CoinTrack Project &rarr;</a>
+                        <p class="text-white-400 mb-4 text-xl">I research and anaylze modern threat and concern in current's technology and the future, and educate my friends about it.</p>
                     </div>
                 </div>
             </div>
@@ -91,11 +89,11 @@
     </section>
 
     <footer id="contact" class="py-10 text-center">
-        <p class="text-gray-400">&copy; 2025 Ashyraffa</p>
+        <p class="text-gray-400">&copy; 2024-2025 Ashyraffa</p>
         <div class="mt-4 flex justify-center space-x-4">
             <a href="https://github.com/Ashyraffa32" class="text-gray-400 hover:text-white">GitHub</a>
             <a href="https://www.instagram.com/ashy_ist_kalz/" class="text-gray-400 hover:text-white">Instagram</a>
-            <a href="https://x.com/raffa456123" class="text-gray-400 hover:text-white">Twitter</a>
+            <a href="https://x.com/ashyraffa1" class="text-gray-400 hover:text-white">Twitter</a>
         </div>
     </footer>
 
